@@ -1,12 +1,12 @@
 import os
 
 # Application (client) ID of app registration
-CLIENT_ID = '308a7f3c-843f-4d30-96d1-9dcc89c1f21c'
+CLIENT_ID = 'xxxx'
 # Application's generated client secret: never check this into source control!
-CLIENT_SECRET = 'Yso8Q~WOvd7VkbQFYFoPiZGC08SJY8n7tPaEXbsu'
+CLIENT_SECRET = 'xxx'
 
 # AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app
-AUTHORITY = f"https://login.microsoftonline.com/58dc8138-f686-4508-96ef-0d3fa7c7ab06"
+AUTHORITY = f"https://login.microsoftonline.com/xxx"
 
 REDIRECT_PATH = "/getAToken"  # Used for forming an absolute URL to your redirect URI.
 # The absolute URL must match the redirect URI you set
