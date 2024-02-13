@@ -70,6 +70,6 @@ def call_downstream_api():
     ).json()
     return render_template('display.html', result=api_result)
 
-
+# action python app.py 
 if __name__ == "__main__":
     app.run(ssl_context='adhoc',debug=True)
